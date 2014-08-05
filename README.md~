@@ -3,8 +3,6 @@ stock_market_analyzer
 
 Simple stock market analyzer which uses the maximum sub-array property to determine the period of highest positive and negative change
 
-To use : Replace the sample data in the text file data.txt with your own data and start by entering 'bash start.sh' on unix machines.
-
 Description of methods
 ----------------------
 
@@ -18,6 +16,7 @@ def max_subarray(A,low,high): finds the maximum subarray of A
 
 todo
 ----
+-> graph the input array along with the period of maximum change
 
 -> find the maximum negative subarray
 
