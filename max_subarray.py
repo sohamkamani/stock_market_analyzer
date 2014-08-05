@@ -1,4 +1,6 @@
 import os
+from matplotlib import pyplot as plt
+
 
 def getdata():
     datafile=open('data.txt','r')
@@ -49,5 +51,6 @@ def max_subarray(A,low,high):
             return r_min , r_max , r_sum
         else:
             return c_min,c_max,c_sum
-        
+    
+
     
